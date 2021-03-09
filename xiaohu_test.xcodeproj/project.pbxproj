@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A01B17925F4A95B00854461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A01B17825F4A95B00854461 /* AppDelegate.m */; };
+		4A01B17F25F4A95B00854461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A01B17E25F4A95B00854461 /* ViewController.m */; };
+		4A01B18225F4A95B00854461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A01B18025F4A95B00854461 /* Main.storyboard */; };
+		4A01B18425F4A95D00854461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A01B18325F4A95D00854461 /* Assets.xcassets */; };
+		4A01B18725F4A95D00854461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A01B18525F4A95D00854461 /* LaunchScreen.storyboard */; };
+		4A01B18A25F4A95D00854461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A01B18925F4A95D00854461 /* main.m */; };
+		4A01B19425F4A95D00854461 /* xiaohu_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A01B19325F4A95D00854461 /* xiaohu_testTests.m */; };
+		4A01B19F25F4A95D00854461 /* xiaohu_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A01B19E25F4A95D00854461 /* xiaohu_testUITests.m */; };
+		4A4D181225F4EC670000F7D3 /* UIButton+mybtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D181125F4EC670000F7D3 /* UIButton+mybtn.m */; };
+		4A4D181825F4EC770000F7D3 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D181725F4EC770000F7D3 /* MyTableViewCell.m */; };
+		4A6163CA25F5E07600D8F77B /* xiaohuBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6163C925F5E07600D8F77B /* xiaohuBaseViewController.m */; };
+		4A6163D025F5E08400D8F77B /* xiaohuHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6163CF25F5E08400D8F77B /* xiaohuHomeViewController.m */; };
+		4A6163D625F5E08A00D8F77B /* xiaohuFenleiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6163D525F5E08A00D8F77B /* xiaohuFenleiViewController.m */; };
+		4A6163DC25F5E09600D8F77B /* xiaohuFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6163DB25F5E09600D8F77B /* xiaohuFindViewController.m */; };
+		4A6163E225F5E09E00D8F77B /* xiaohumyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6163E125F5E09E00D8F77B /* xiaohumyViewController.m */; };
+		4A6163E825F5E0B400D8F77B /* xioahuBaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6163E725F5E0B400D8F77B /* xioahuBaseTabbarController.m */; };
+		4A61642225F5E25200D8F77B /* UIViewController+ViewWilldapdel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61642125F5E25200D8F77B /* UIViewController+ViewWilldapdel.m */; };
+		4A61642E25F5E9EC00D8F77B /* NSMutableDictionary+safeDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61642D25F5E9EC00D8F77B /* NSMutableDictionary+safeDic.m */; };
+		4A61643425F6010300D8F77B /* NSObject+JsontoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61643325F6010300D8F77B /* NSObject+JsontoModel.m */; };
+		4A61643A25F603B700D8F77B /* MytestObjetc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61643925F603B700D8F77B /* MytestObjetc.m */; };
+		4A61644025F6127300D8F77B /* encodetestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61643F25F6127300D8F77B /* encodetestModel.m */; };
+		4A61644625F6192900D8F77B /* NSMutableArray+safeArr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61644525F6192900D8F77B /* NSMutableArray+safeArr.m */; };
+		4AF88C8A25F5110C00F8E09C /* UIImageView+tapimggesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF88C8925F5110C00F8E09C /* UIImageView+tapimggesture.m */; };
+		5C2E87DF8DEEA50A8AD41C0E /* Pods_xiaohu_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D597D9DC9ABEF33A4DB094 /* Pods_xiaohu_test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A01B19025F4A95D00854461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A01B16C25F4A95B00854461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A01B17325F4A95B00854461;
+			remoteInfo = xiaohu_test;
+		};
+		4A01B19B25F4A95D00854461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A01B16C25F4A95B00854461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A01B17325F4A95B00854461;
+			remoteInfo = xiaohu_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A01B17425F4A95B00854461 /* xiaohu_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaohu_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A01B17725F4A95B00854461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A01B17825F4A95B00854461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A01B17D25F4A95B00854461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A01B17E25F4A95B00854461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A01B18125F4A95B00854461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A01B18325F4A95D00854461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A01B18625F4A95D00854461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A01B18825F4A95D00854461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A01B18925F4A95D00854461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A01B18F25F4A95D00854461 /* xiaohu_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaohu_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A01B19325F4A95D00854461 /* xiaohu_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaohu_testTests.m; sourceTree = "<group>"; };
+		4A01B19525F4A95D00854461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A01B19A25F4A95D00854461 /* xiaohu_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaohu_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A01B19E25F4A95D00854461 /* xiaohu_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaohu_testUITests.m; sourceTree = "<group>"; };
+		4A01B1A025F4A95D00854461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4D181025F4EC670000F7D3 /* UIButton+mybtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+mybtn.h"; sourceTree = "<group>"; };
+		4A4D181125F4EC670000F7D3 /* UIButton+mybtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+mybtn.m"; sourceTree = "<group>"; };
+		4A4D181625F4EC770000F7D3 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		4A4D181725F4EC770000F7D3 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		4A6163C825F5E07600D8F77B /* xiaohuBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xiaohuBaseViewController.h; sourceTree = "<group>"; };
+		4A6163C925F5E07600D8F77B /* xiaohuBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaohuBaseViewController.m; sourceTree = "<group>"; };
+		4A6163CE25F5E08400D8F77B /* xiaohuHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xiaohuHomeViewController.h; sourceTree = "<group>"; };
+		4A6163CF25F5E08400D8F77B /* xiaohuHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaohuHomeViewController.m; sourceTree = "<group>"; };
+		4A6163D425F5E08A00D8F77B /* xiaohuFenleiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xiaohuFenleiViewController.h; sourceTree = "<group>"; };
+		4A6163D525F5E08A00D8F77B /* xiaohuFenleiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaohuFenleiViewController.m; sourceTree = "<group>"; };
+		4A6163DA25F5E09600D8F77B /* xiaohuFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xiaohuFindViewController.h; sourceTree = "<group>"; };
+		4A6163DB25F5E09600D8F77B /* xiaohuFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaohuFindViewController.m; sourceTree = "<group>"; };
+		4A6163E025F5E09E00D8F77B /* xiaohumyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xiaohumyViewController.h; sourceTree = "<group>"; };
+		4A6163E125F5E09E00D8F77B /* xiaohumyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaohumyViewController.m; sourceTree = "<group>"; };
+		4A6163E625F5E0B400D8F77B /* xioahuBaseTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xioahuBaseTabbarController.h; sourceTree = "<group>"; };
+		4A6163E725F5E0B400D8F77B /* xioahuBaseTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xioahuBaseTabbarController.m; sourceTree = "<group>"; };
+		4A6163EF25F5E17400D8F77B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4A61642025F5E25200D8F77B /* UIViewController+ViewWilldapdel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewWilldapdel.h"; sourceTree = "<group>"; };
+		4A61642125F5E25200D8F77B /* UIViewController+ViewWilldapdel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewWilldapdel.m"; sourceTree = "<group>"; };
+		4A61642C25F5E9EC00D8F77B /* NSMutableDictionary+safeDic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+safeDic.h"; sourceTree = "<group>"; };
+		4A61642D25F5E9EC00D8F77B /* NSMutableDictionary+safeDic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+safeDic.m"; sourceTree = "<group>"; };
+		4A61643225F6010300D8F77B /* NSObject+JsontoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsontoModel.h"; sourceTree = "<group>"; };
+		4A61643325F6010300D8F77B /* NSObject+JsontoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsontoModel.m"; sourceTree = "<group>"; };
+		4A61643825F603B700D8F77B /* MytestObjetc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MytestObjetc.h; sourceTree = "<group>"; };
+		4A61643925F603B700D8F77B /* MytestObjetc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MytestObjetc.m; sourceTree = "<group>"; };
+		4A61643E25F6127300D8F77B /* encodetestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encodetestModel.h; sourceTree = "<group>"; };
+		4A61643F25F6127300D8F77B /* encodetestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = encodetestModel.m; sourceTree = "<group>"; };
+		4A61644425F6192900D8F77B /* NSMutableArray+safeArr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+safeArr.h"; sourceTree = "<group>"; };
+		4A61644525F6192900D8F77B /* NSMutableArray+safeArr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+safeArr.m"; sourceTree = "<group>"; };
+		4AF88C8825F5110C00F8E09C /* UIImageView+tapimggesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+tapimggesture.h"; sourceTree = "<group>"; };
+		4AF88C8925F5110C00F8E09C /* UIImageView+tapimggesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+tapimggesture.m"; sourceTree = "<group>"; };
+		74D597D9DC9ABEF33A4DB094 /* Pods_xiaohu_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaohu_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8DCAFB9C0B3C9A4016631B /* Pods-xiaohu_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaohu_test.debug.xcconfig"; path = "Target Support Files/Pods-xiaohu_test/Pods-xiaohu_test.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6880B78B2458317671C5F9 /* Pods-xiaohu_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaohu_test.release.xcconfig"; path = "Target Support Files/Pods-xiaohu_test/Pods-xiaohu_test.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A01B17125F4A95B00854461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2E87DF8DEEA50A8AD41C0E /* Pods_xiaohu_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A01B18C25F4A95D00854461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A01B19725F4A95D00854461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A01B16B25F4A95B00854461 = {
+			isa = PBXGroup;
+			children = (
+				4A01B17625F4A95B00854461 /* xiaohu_test */,
+				4A01B19225F4A95D00854461 /* xiaohu_testTests */,
+				4A01B19D25F4A95D00854461 /* xiaohu_testUITests */,
+				4A01B17525F4A95B00854461 /* Products */,
+				A3D8D8E82D1EED6E362FA2FD /* Pods */,
+				BAD4368D22935DAFF7EBB3D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A01B17525F4A95B00854461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A01B17425F4A95B00854461 /* xiaohu_test.app */,
+				4A01B18F25F4A95D00854461 /* xiaohu_testTests.xctest */,
+				4A01B19A25F4A95D00854461 /* xiaohu_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A01B17625F4A95B00854461 /* xiaohu_test */ = {
+			isa = PBXGroup;
+			children = (
+				4A6163C725F5E05800D8F77B /* 我的 */,
+				4A6163C625F5E05200D8F77B /* 发现 */,
+				4A6163C525F5E04D00D8F77B /* 分类 */,
+				4A6163C425F5E04400D8F77B /* 首页 */,
+				4A01B17725F4A95B00854461 /* AppDelegate.h */,
+				4A01B17825F4A95B00854461 /* AppDelegate.m */,
+				4A01B17D25F4A95B00854461 /* ViewController.h */,
+				4A01B17E25F4A95B00854461 /* ViewController.m */,
+				4A4D181625F4EC770000F7D3 /* MyTableViewCell.h */,
+				4A4D181725F4EC770000F7D3 /* MyTableViewCell.m */,
+				4A4D181025F4EC670000F7D3 /* UIButton+mybtn.h */,
+				4A4D181125F4EC670000F7D3 /* UIButton+mybtn.m */,
+				4AF88C8825F5110C00F8E09C /* UIImageView+tapimggesture.h */,
+				4AF88C8925F5110C00F8E09C /* UIImageView+tapimggesture.m */,
+				4A6163C825F5E07600D8F77B /* xiaohuBaseViewController.h */,
+				4A6163C925F5E07600D8F77B /* xiaohuBaseViewController.m */,
+				4A6163E625F5E0B400D8F77B /* xioahuBaseTabbarController.h */,
+				4A6163E725F5E0B400D8F77B /* xioahuBaseTabbarController.m */,
+				4A61642025F5E25200D8F77B /* UIViewController+ViewWilldapdel.h */,
+				4A61642125F5E25200D8F77B /* UIViewController+ViewWilldapdel.m */,
+				4A61642C25F5E9EC00D8F77B /* NSMutableDictionary+safeDic.h */,
+				4A61642D25F5E9EC00D8F77B /* NSMutableDictionary+safeDic.m */,
+				4A61644425F6192900D8F77B /* NSMutableArray+safeArr.h */,
+				4A61644525F6192900D8F77B /* NSMutableArray+safeArr.m */,
+				4A61643225F6010300D8F77B /* NSObject+JsontoModel.h */,
+				4A61643325F6010300D8F77B /* NSObject+JsontoModel.m */,
+				4A61643825F603B700D8F77B /* MytestObjetc.h */,
+				4A61643925F603B700D8F77B /* MytestObjetc.m */,
+				4A61643E25F6127300D8F77B /* encodetestModel.h */,
+				4A61643F25F6127300D8F77B /* encodetestModel.m */,
+				4A6163EF25F5E17400D8F77B /* PrefixHeader.pch */,
+				4A01B18025F4A95B00854461 /* Main.storyboard */,
+				4A01B18325F4A95D00854461 /* Assets.xcassets */,
+				4A01B18525F4A95D00854461 /* LaunchScreen.storyboard */,
+				4A01B18825F4A95D00854461 /* Info.plist */,
+				4A01B18925F4A95D00854461 /* main.m */,
+			);
+			path = xiaohu_test;
+			sourceTree = "<group>";
+		};
+		4A01B19225F4A95D00854461 /* xiaohu_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A01B19325F4A95D00854461 /* xiaohu_testTests.m */,
+				4A01B19525F4A95D00854461 /* Info.plist */,
+			);
+			path = xiaohu_testTests;
+			sourceTree = "<group>";
+		};
+		4A01B19D25F4A95D00854461 /* xiaohu_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A01B19E25F4A95D00854461 /* xiaohu_testUITests.m */,
+				4A01B1A025F4A95D00854461 /* Info.plist */,
+			);
+			path = xiaohu_testUITests;
+			sourceTree = "<group>";
+		};
+		4A6163C425F5E04400D8F77B /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				4A6163CE25F5E08400D8F77B /* xiaohuHomeViewController.h */,
+				4A6163CF25F5E08400D8F77B /* xiaohuHomeViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		4A6163C525F5E04D00D8F77B /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				4A6163D425F5E08A00D8F77B /* xiaohuFenleiViewController.h */,
+				4A6163D525F5E08A00D8F77B /* xiaohuFenleiViewController.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		4A6163C625F5E05200D8F77B /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				4A6163DA25F5E09600D8F77B /* xiaohuFindViewController.h */,
+				4A6163DB25F5E09600D8F77B /* xiaohuFindViewController.m */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		4A6163C725F5E05800D8F77B /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				4A6163E025F5E09E00D8F77B /* xiaohumyViewController.h */,
+				4A6163E125F5E09E00D8F77B /* xiaohumyViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		A3D8D8E82D1EED6E362FA2FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C8DCAFB9C0B3C9A4016631B /* Pods-xiaohu_test.debug.xcconfig */,
+				7E6880B78B2458317671C5F9 /* Pods-xiaohu_test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAD4368D22935DAFF7EBB3D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74D597D9DC9ABEF33A4DB094 /* Pods_xiaohu_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A01B17325F4A95B00854461 /* xiaohu_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A01B1A325F4A95D00854461 /* Build configuration list for PBXNativeTarget "xiaohu_test" */;
+			buildPhases = (
+				7DC7EC1FA7EF934A5EE3777D /* [CP] Check Pods Manifest.lock */,
+				4A01B17025F4A95B00854461 /* Sources */,
+				4A01B17125F4A95B00854461 /* Frameworks */,
+				4A01B17225F4A95B00854461 /* Resources */,
+				D171F8AAFD5FC1ACE1D7AA10 /* [CP] Embed Pods Frameworks */,
+				C13022EF238D9F5F904A829D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xiaohu_test;
+			productName = xiaohu_test;
+			productReference = 4A01B17425F4A95B00854461 /* xiaohu_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A01B18E25F4A95D00854461 /* xiaohu_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A01B1A625F4A95D00854461 /* Build configuration list for PBXNativeTarget "xiaohu_testTests" */;
+			buildPhases = (
+				4A01B18B25F4A95D00854461 /* Sources */,
+				4A01B18C25F4A95D00854461 /* Frameworks */,
+				4A01B18D25F4A95D00854461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A01B19125F4A95D00854461 /* PBXTargetDependency */,
+			);
+			name = xiaohu_testTests;
+			productName = xiaohu_testTests;
+			productReference = 4A01B18F25F4A95D00854461 /* xiaohu_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A01B19925F4A95D00854461 /* xiaohu_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A01B1A925F4A95D00854461 /* Build configuration list for PBXNativeTarget "xiaohu_testUITests" */;
+			buildPhases = (
+				4A01B19625F4A95D00854461 /* Sources */,
+				4A01B19725F4A95D00854461 /* Frameworks */,
+				4A01B19825F4A95D00854461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A01B19C25F4A95D00854461 /* PBXTargetDependency */,
+			);
+			name = xiaohu_testUITests;
+			productName = xiaohu_testUITests;
+			productReference = 4A01B19A25F4A95D00854461 /* xiaohu_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A01B16C25F4A95B00854461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4A01B17325F4A95B00854461 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					4A01B18E25F4A95D00854461 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4A01B17325F4A95B00854461;
+					};
+					4A01B19925F4A95D00854461 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4A01B17325F4A95B00854461;
+					};
+				};
+			};
+			buildConfigurationList = 4A01B16F25F4A95B00854461 /* Build configuration list for PBXProject "xiaohu_test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A01B16B25F4A95B00854461;
+			productRefGroup = 4A01B17525F4A95B00854461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A01B17325F4A95B00854461 /* xiaohu_test */,
+				4A01B18E25F4A95D00854461 /* xiaohu_testTests */,
+				4A01B19925F4A95D00854461 /* xiaohu_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A01B17225F4A95B00854461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A01B18725F4A95D00854461 /* LaunchScreen.storyboard in Resources */,
+				4A01B18425F4A95D00854461 /* Assets.xcassets in Resources */,
+				4A01B18225F4A95B00854461 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A01B18D25F4A95D00854461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A01B19825F4A95D00854461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DC7EC1FA7EF934A5EE3777D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xiaohu_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13022EF238D9F5F904A829D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xiaohu_test/Pods-xiaohu_test-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xiaohu_test/Pods-xiaohu_test-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xiaohu_test/Pods-xiaohu_test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D171F8AAFD5FC1ACE1D7AA10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xiaohu_test/Pods-xiaohu_test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xiaohu_test/Pods-xiaohu_test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xiaohu_test/Pods-xiaohu_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A01B17025F4A95B00854461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6163D625F5E08A00D8F77B /* xiaohuFenleiViewController.m in Sources */,
+				4A6163DC25F5E09600D8F77B /* xiaohuFindViewController.m in Sources */,
+				4A61644625F6192900D8F77B /* NSMutableArray+safeArr.m in Sources */,
+				4A61644025F6127300D8F77B /* encodetestModel.m in Sources */,
+				4AF88C8A25F5110C00F8E09C /* UIImageView+tapimggesture.m in Sources */,
+				4A6163E225F5E09E00D8F77B /* xiaohumyViewController.m in Sources */,
+				4A61643425F6010300D8F77B /* NSObject+JsontoModel.m in Sources */,
+				4A01B17F25F4A95B00854461 /* ViewController.m in Sources */,
+				4A61643A25F603B700D8F77B /* MytestObjetc.m in Sources */,
+				4A61642225F5E25200D8F77B /* UIViewController+ViewWilldapdel.m in Sources */,
+				4A6163CA25F5E07600D8F77B /* xiaohuBaseViewController.m in Sources */,
+				4A6163D025F5E08400D8F77B /* xiaohuHomeViewController.m in Sources */,
+				4A01B17925F4A95B00854461 /* AppDelegate.m in Sources */,
+				4A6163E825F5E0B400D8F77B /* xioahuBaseTabbarController.m in Sources */,
+				4A4D181225F4EC670000F7D3 /* UIButton+mybtn.m in Sources */,
+				4A61642E25F5E9EC00D8F77B /* NSMutableDictionary+safeDic.m in Sources */,
+				4A01B18A25F4A95D00854461 /* main.m in Sources */,
+				4A4D181825F4EC770000F7D3 /* MyTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A01B18B25F4A95D00854461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A01B19425F4A95D00854461 /* xiaohu_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A01B19625F4A95D00854461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A01B19F25F4A95D00854461 /* xiaohu_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A01B19125F4A95D00854461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A01B17325F4A95B00854461 /* xiaohu_test */;
+			targetProxy = 4A01B19025F4A95D00854461 /* PBXContainerItemProxy */;
+		};
+		4A01B19C25F4A95D00854461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A01B17325F4A95B00854461 /* xiaohu_test */;
+			targetProxy = 4A01B19B25F4A95D00854461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A01B18025F4A95B00854461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A01B18125F4A95B00854461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A01B18525F4A95D00854461 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A01B18625F4A95D00854461 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A01B1A125F4A95D00854461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A01B1A225F4A95D00854461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A01B1A425F4A95D00854461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8DCAFB9C0B3C9A4016631B /* Pods-xiaohu_test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/codehzx/Desktop/xiaohu_test/xiaohu_test/PrefixHeader.pch;
+				INFOPLIST_FILE = xiaohu_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.xiaohu-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A01B1A525F4A95D00854461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6880B78B2458317671C5F9 /* Pods-xiaohu_test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/codehzx/Desktop/xiaohu_test/xiaohu_test/PrefixHeader.pch;
+				INFOPLIST_FILE = xiaohu_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.xiaohu-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A01B1A725F4A95D00854461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = xiaohu_testTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.xiaohu-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaohu_test.app/xiaohu_test";
+			};
+			name = Debug;
+		};
+		4A01B1A825F4A95D00854461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = xiaohu_testTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.xiaohu-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaohu_test.app/xiaohu_test";
+			};
+			name = Release;
+		};
+		4A01B1AA25F4A95D00854461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = xiaohu_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.xiaohu-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xiaohu_test;
+			};
+			name = Debug;
+		};
+		4A01B1AB25F4A95D00854461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = xiaohu_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.xiaohu-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xiaohu_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A01B16F25F4A95B00854461 /* Build configuration list for PBXProject "xiaohu_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A01B1A125F4A95D00854461 /* Debug */,
+				4A01B1A225F4A95D00854461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A01B1A325F4A95D00854461 /* Build configuration list for PBXNativeTarget "xiaohu_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A01B1A425F4A95D00854461 /* Debug */,
+				4A01B1A525F4A95D00854461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A01B1A625F4A95D00854461 /* Build configuration list for PBXNativeTarget "xiaohu_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A01B1A725F4A95D00854461 /* Debug */,
+				4A01B1A825F4A95D00854461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A01B1A925F4A95D00854461 /* Build configuration list for PBXNativeTarget "xiaohu_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A01B1AA25F4A95D00854461 /* Debug */,
+				4A01B1AB25F4A95D00854461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A01B16C25F4A95B00854461 /* Project object */;
+}
